@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.header-image {
+    background-image: url("http://www.mdhadallas.org/wp-content/uploads/2020/03/CoronaVirusHeader-Final-3.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    background-position: 0 40%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.navigation > p {
+    cursor: pointer;
+    height: 20px;
+    padding: 10px;
+    /* border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff; */
+    border-radius: 6px;
+    background: linear-gradient(145deg, #fbfbfb, #d4d4d4);
+    box-shadow:  4px 4px 10px #c3c3c3,
+                    -4px -4px 10px #ffffff;
+}
+
+.navigation > p:hover {
+    border-radius: 6px;
+    background: linear-gradient(145deg, #d4d4d4, #fbfbfb);
+    box-shadow:  4px 4px 10px #c3c3c3,
+                -4px -4px 10px #ffffff;
+    /* border-radius: 10px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff; */
+}
+
+.main-container {
+    /* background: #ebebeb; */
+    height: 100%;
+}
+
+.main-header {
+    text-align: center;
+    font-size: 60px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* margin: 30px 0; */
+}
+
+.card-image-container {
+    width: 100%;
+    height: 200px;
+}
+
+.card-image-container > img {
+    width: auto;
+    height: 100%;
+}
+
+.diagram-image-container {
+    height: 300px;
+}
+
+.diagram-image-container > img {
+    width: auto;
+    height: 100%;
+}
